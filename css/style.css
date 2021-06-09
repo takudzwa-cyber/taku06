@@ -1,4 +1,4 @@
-/* Website template by freewebsitetemplates.com */
+
 body {
 	background-color: 80000;
 	min-width: 960px;
@@ -44,20 +44,9 @@ img {
 .phone, .mail, .home, .fax, #footnote .connect a {
 	background: url(../images/icons.png) no-repeat;
 }
-.frame1, .frame2, .frame3, .frame4, .frame5, .news > li {
+.frame1, .frame2, .frame3, .frame4 > li {
 	background: url(../images/frames.png) no-repeat;
-}
-.more, .subscribe, input[type='submit'] {
-	background-position: -107px 0;
-	color: #fff;
-	display: inline-block;
-	font: 12px/28px Arial, Helvetica, sans-serif;
-	height: 28px;
-	width: 97px;
-	text-align: center;
-	text-decoration: none;
-	text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
-	text-transform: uppercase;
+
 }
 .more:hover {
 	background-position: 0 0;
@@ -67,9 +56,6 @@ img {
 	height: 38px;
 	line-height: 38px;
 	width: 212px;
-}
-.subscribe:hover, input[type='submit']:hover {
-	background-position: 0 -38px;
 }
 .home, .phone, .mail, .fax {
 	background-position: 0 1px;
@@ -114,13 +100,7 @@ img {
 	width: 93px;
 	padding: 7px 7px 0;
 	text-align: center;
-}
-.frame5 {
-	background-position: -610px -238px;
-	height: 220px;
-	width: 268px;
-	padding: 7px 6px 0;
-	text-align: center;
+
 }
 /*------------ HEADER ------------*/
 #header {
@@ -198,19 +178,19 @@ h1 {
 	text-transform: uppercase;
 }
 h2 {
-	color: #626262;
+	color: #FAEDB7;
 	font: 19px/24px "Times New Roman", Times, serif;
 	letter-spacing: 2px;
 	margin: 0;
 	text-transform: uppercase;
 }
 p {
-	color: #626262;
+	color: #FAEDB7;
 	font: 14px/24px Arial, Helvetica, sans-serif;
 	margin: 0 0 24px;
 }
 p a {
-	color: #626262;
+	color: #FAEDB7;
 }
 p a:hover {
 	color: #333333;
@@ -382,7 +362,7 @@ p a:hover {
 	text-decoration: none;
 }
 .practices li a span {
-	background-color: #696969;
+	background-color: #FAEDB7;
 	color: #e2e2e2;
 	display: block;
 	font: 19px/46px "Times New Roman", Times, serif;
